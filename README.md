@@ -9,8 +9,8 @@
 | 4    |      getPictures      |     爬虫类     | 用selenium从煎蛋网批量下载妹子图                             |     /      | Jun 26, 2018  |      /      |  /   |
 | 5    |    passwordManager    |  sqlite、GUI   | 基于、tkinter-sqlite-encrypt编写的密码管理工具，加密存储     |    Yes     |  Jul 3, 2018  |      /      |  √   |
 | 6    | randomStringGenerator |      GUI       | 任意位数的随机字符串生成器                                   |    Yes     | Jul 19, 2018  |      /      |  √   |
-| 7    |       baiduOCR        |    OCR、GUI    | 联网调用百度OCR接口，实现通用文字识别                        |    Yes     | Jul  20, 2018 |      /      |  √   |
-| 7    |     Python Notes      |     笔记类     | 主要是第三方包的使用，如numpy, pandas, matplotlib, sklearn等 |     /      | Nov 18, 2018  |      /      |  /   |
+| 7    |       baiduOCR        |    OCR、GUI    | 联网调用百度OCR接口，实现通用文字识别                        |    Yes     | Jul 20, 2018 |      /      |  √   |
+| 8    |     Python Notes      |     笔记类     | 主要是第三方包的使用，如numpy, pandas, matplotlib, sklearn等 |     /      | Nov 18, 2018  |      /      |  /   |
 | 9    |     openMiRemote      |  GUI、脚本类   | 电脑端快速开启MIUI手机的远程文件管理                         |    Yes     | Jul 24, 2019  |      /      |  √   |
 
 最后单独的`pyUpgrade.py`是python包的批量更新脚本。
