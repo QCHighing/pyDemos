@@ -1,0 +1,66 @@
+浏览器搜索
+:::::::::
+request : https://www.icourse163.org/  + 机器学习
+reponse : https://www.icourse163.org/search.htm?search=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0#/
+
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+总览
+：：
+URL https://www.icourse163.org/dwr/call/plaincall/MocSearchBean.searchMocCourse.dwr
+Status  Complete
+Response Code   200 OK
+Protocol    HTTP/1.1
+
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+HTTP请求方式
+：：：：：：：
+POST /dwr/call/plaincall/MocSearchBean.searchMocCourse.dwr HTTP/1.1
+
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+请求头
+：：：
+Host    www.icourse163.org
+Connection  keep-alive
+Content-Length  531
+Origin  https://www.icourse163.org
+User-Agent  Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Content-Type    text/plain
+Accept  */*
+Referer https://www.icourse163.org/search.htm?search=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0
+Accept-Encoding gzip, deflate, br
+Accept-Language zh-CN,zh;q=0.9
+Cookie  EDUWEBDEVICE=f81dea235d584bafaed2ca578c0403c2; hb_MA-A976-948FFA05E931_source=www.baidu.com; eduplayer_device_id=15269912999678635122405; videoRate=1.5; NTESSTUDYSI=bd4f183dd74746aa83b2cced56a0795b; utm="eyJjIjoiIiwiY3QiOiIiLCJpIjoiIiwibSI6IiIsInMiOiIiLCJ0IjoiIn0=|aHR0cHM6Ly93d3cuYmFpZHUuY29tLz90bj05ODAxMjA4OF80X2RnJmNoPTU="; __utma=63145271.1483598365.1526991240.1528883156.1528898292.7; __utmc=63145271; __utmz=63145271.1528898292.7.2.utmcsr=baidu.com|utmccn=(referral)|utmcmd=referral|utmcct=/; mp_MA-A976-948FFA05E931_hubble=%7B%22sessionReferrer%22%3A%20%22https%3A%2F%2Fwww.icourse163.org%2Fhome.htm%3FuserId%3D6112684%22%2C%22updatedTime%22%3A%201528898317174%2C%22sessionStartTime%22%3A%201528898291022%2C%22deviceUdid%22%3A%20%2201713c58-7e41-4067-b5d7-61de9a4bdc4a%22%2C%22persistedTime%22%3A%201526991238909%2C%22LASTEVENT%22%3A%20%7B%22eventId%22%3A%20%22da_screen%22%2C%22time%22%3A%201528898317174%7D%2C%22sessionUuid%22%3A%20%22c0359039-8e01-42a1-9f53-a144392a61fa%22%7D; __utmb=63145271.6.9.1528898317459
+
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+请求文本信息
+：：：：：：
+callCount=1
+scriptSessionId=${scriptSessionId}190
+httpSessionId=bd4f183dd74746aa83b2cced56a0795b
+c0-scriptName=MocSearchBean
+c0-methodName=searchMocCourse
+c0-id=0
+c0-e1=string:%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0
+c0-e2=number:1
+c0-e3=boolean:true
+c0-e4=null:null
+c0-e5=number:0
+c0-e6=number:30
+c0-e7=number:20
+c0-param0=Object_Object:{keyword:reference:c0-e1,pageIndex:reference:c0-e2,highlight:reference:c0-e3,categoryId:reference:c0-e4,orderBy:reference:c0-e5,stats:reference:c0-e6,pageSize:reference:c0-e7}
+batchId=1528898317310
+
+- - - - - - 
+解读：
+由最后一行解得
+keyword:reference:c0-e1     关键字
+pageIndex:reference:c0-e2   页面序号
+highlight:reference:c0-e3   无用
+categoryId:reference:c0-e4  无用
+orderBy:reference:c0-e5     无用
+stats:reference:c0-e6       状态
+pageSize:reference:c0-e7    页面大小

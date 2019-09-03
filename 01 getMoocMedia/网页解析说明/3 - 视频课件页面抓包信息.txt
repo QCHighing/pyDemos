@@ -1,0 +1,222 @@
+课件和视频的请求格式相同，对响应的解析不同。
+
+
+查找到的数据来源
+-----------------------------------------------------------------------------------
+['响应']
+s19.anchorQuestions = s24;
+s19.attachments = null;
+s19.chapterId = 1003202001;
+s19.contentId = 1265008;
+s19.contentType = 1;
+s19.durationInSeconds = null;
+s19.freePreview = 0;
+s19.gmtCreate = 1519957894675;
+s19.gmtModified = 1519957894675;
+s19.id = 1004601002;
+s19.jsonContent = "[{\"anchor\":282,\"questionId\":1005540001},{\"anchor\":201,\"questionId\":1005540002}]";
+s19.lessonId = 1003828001;
+s19.live = null;
+s19.liveInfoDto = null;
+s19.name = "1\u8BA1\u7B97\u673A\u4E0E\u7F16\u7A0B\u8BED\u8A00\uFF1A\u8BA1\u7B97\u673A\u600E\u4E48\u505A\u4E8B\u60C5\u7684\uFF0C\u7F16\u7A0B\u8BED\u8A00\u662F\u4EC0\u4E48";
+                1计算机与编程语言：计算机怎么做事情的，编程语言是什么
+s19.position = 1;
+s19.resourceInfo = null;
+s19.termId = 1002774001;
+s19.unitId = null;
+s19.viewStatus = 0;
+
+---------------------------
+【'请求'】
+https://www.icourse163.org/dwr/call/plaincall/CourseBean.getLastLearnedMocTermDto.dwr
+POST /dwr/call/plaincall/CourseBean.getLastLearnedMocTermDto.dwr HTTP/1.1
+
+Host    www.icourse163.org
+Connection  keep-alive
+Content-Length  218
+Origin  https://www.icourse163.org
+User-Agent  Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Content-Type    text/plain
+Accept  */*
+Referer https://www.icourse163.org/learn/KMUST-1002355002?tid=1002492001
+Accept-Encoding gzip, deflate, br
+Accept-Language zh-CN,zh;q=0.9
+
+callCount=1
+scriptSessionId=${scriptSessionId}190
+httpSessionId=c3f19c099fd94883bb1cec6b180124e8
+c0-scriptName=CourseBean
+c0-methodName=getLastLearnedMocTermDto
+c0-id=0
+c0-param0=number:1002492001
+batchId=1529137552185
+
+
+
+需进行数据包参数解析。
+----------------------------------
+callCount=1
+scriptSessionId=${scriptSessionId}190
+httpSessionId=c3f19c099fd94883bb1cec6b180124e8
+c0-scriptName=CourseBean
+c0-methodName=getLessonUnitLearnVo
+c0-id=0
+c0-param0=number:1008463155        # contentId
+c0-param1=number:1              # contentType： 3代表文档，1代表视频
+c0-param2=number:0
+c0-param3=number:1004433307     # 文件id
+batchId=1529137552338
+
+
+
+文本课件
+---------------------------------------------------------------------------------------------
+URL：https://www.icourse163.org/dwr/call/plaincall/CourseBean.getLessonUnitLearnVo.dwr
+    
+POST /dwr/call/plaincall/CourseBean.getLessonUnitLearnVo.dwr HTTP/1.1
+
+Host    www.icourse163.org
+Connection  keep-alive
+Content-Length  276
+Origin  https://www.icourse163.org
+User-Agent  Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Content-Type    text/plain
+Accept  */*
+Referer https://www.icourse163.org/learn/HIT-69005?tid=1002653009
+Accept-Encoding gzip, deflate, br
+Accept-Language zh-CN,zh;q=0.9
+
+callCount=1
+scriptSessionId=${scriptSessionId}190
+httpSessionId=c3f19c099fd94883bb1cec6b180124e8
+c0-scriptName=CourseBean
+c0-methodName=getLessonUnitLearnVo
+c0-id=0
+c0-param0=number:761002
+c0-param1=number:3
+c0-param2=number:0
+c0-param3=number:1004284902
+batchId=1529133420084
+
+------------------------【响应-JavaScript】-----------------------
+//#DWR-INSERT
+//#DWR-REPLY
+dwr.engine._remoteHandleCallback('1529133420084', '0', {
+    contentId: null,
+    contentType: null,
+    duration: null,
+    hdMp4Url: null,
+    htmlContent: null,
+    id: null,
+    learnedPosition: 1,
+    origSrtUrl: null,
+    paper: null,
+    parsedSrtUrl: null,
+    post: null,
+    randomKey: null,
+    sdMp4Url: null,
+    shdMp4Url: null,
+    srtKeys: null,
+    textOrigUrl: "http://nos.netease.com/edu-lesson-pdfsrc/DCD2DF68919356A1F1263E73EFC846A1-1423216618550?NOSAccessKeyId=7ba71f968e4340f1ab476ecb300190fa&Expires=1529141130&Signature=NBtWtlYVWztSUZ%2BZhW2c%2Bt%2BDiPIQbZ0IExEah351Z9E%3D&download=%E6%96%87%E4%BB%B6%E7%9A%84%E6%89%93%E5%BC%80%E5%92%8C%E5%85%B3%E9%97%AD.pdf",
+    textPageWhRatio: 1.78,
+    textPages: 9,
+    textUrl: "http://nos.netease.com/edu-lesson-content/content-761002.swf?NOSAccessKeyId=7ba71f968e4340f1ab476ecb300190fa&Expires=1529141130&Signature=XlwO0WQVx8ndwwReSGxEXqmzP0DcbkgMXEVSJdipXG4%3D",
+    type: null,
+    unitId: null,
+    videoHDUrl: null,
+    videoId: null,
+    videoImgUrl: null,
+    videoLearnTime: 0,
+    videoSHDUrl: null,
+    videoUrl: null,
+    videoVo: null
+});
+
+
+
+视频
+--------------------------------------------------------------------------------------------------
+https://www.icourse163.org/dwr/call/plaincall/CourseBean.getLessonUnitLearnVo.dwr
+
+POST /dwr/call/plaincall/CourseBean.getLessonUnitLearnVo.dwr HTTP/1.1
+
+Host    www.icourse163.org
+Connection  keep-alive
+Content-Length  277
+Origin  https://www.icourse163.org
+User-Agent  Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Content-Type    text/plain
+Accept  */*
+Referer https://www.icourse163.org/learn/HIT-69005?tid=1002653009
+Accept-Encoding gzip, deflate, br
+Accept-Language zh-CN,zh;q=0.9
+
+callCount=1
+scriptSessionId=${scriptSessionId}190
+httpSessionId=c3f19c099fd94883bb1cec6b180124e8
+c0-scriptName=CourseBean
+c0-methodName=getLessonUnitLearnVo
+c0-id=0
+c0-param0=number:2030035
+c0-param1=number:1
+c0-param2=number:0
+c0-param3=number:1004284885
+batchId=1529133420147
+
+//#DWR-INSERT
+//#DWR-REPLY
+var s0 = {};
+s0.clientEncryptKeyVersion = null;
+s0.duration = 813;
+s0.encrypt = false;
+s0.flvCaption = null;
+s0.flvHdUrl = "http://v.stu.126.net/mooc-video/nos/flv/2015/08/26/2030035_hd.flv?ak=473d0c70ee0ef14ee3c96833da729e11968849714fdfe5a093cea06a4730b809e70a9539df29950c6649687853c6f95f172717f1e1162cf3f8b605a72b288f610015e48ffc49c659b128bfe612dda086d65894b8ef217f1626539e3c9eb40879c29b730d22bdcadb1b4f67996129275fa4c38c6336120510aea1ae1790819de86e0fa3e09eeabea1b068b3d9b9b6597acf0c219eb000a69c12ce9d568813365b3e099fcdb77c69ca7cd6141d92c122af";
+s0.flvSdUrl = "http://v.stu.126.net/mooc-video/nos/flv/2015/08/26/2030035_sd.flv?ak=473d0c70ee0ef14ee3c96833da729e11968849714fdfe5a093cea06a4730b809e70a9539df29950c6649687853c6f95f172717f1e1162cf3f8b605a72b288f610015e48ffc49c659b128bfe612dda086d65894b8ef217f1626539e3c9eb40879c29b730d22bdcadb1b4f67996129275fa4c38c6336120510aea1ae1790819de86e0fa3e09eeabea1b068b3d9b9b6597acf0c219eb000a69c12ce9d568813365b3e099fcdb77c69ca7cd6141d92c122af";
+s0.flvShdUrl = "http://v.stu.126.net/mooc-video/nos/flv/2015/08/26/2030035_shd.flv?ak=473d0c70ee0ef14ee3c96833da729e11968849714fdfe5a093cea06a4730b809e70a9539df29950c6649687853c6f95f172717f1e1162cf3f8b605a72b288f610015e48ffc49c659b128bfe612dda086d65894b8ef217f1626539e3c9eb40879c29b730d22bdcadb1b4f67996129275fa4c38c6336120510aea1ae1790819de86e0fa3e09eeabea1b068b3d9b9b6597acf0c219eb000a69c12ce9d568813365b3e099fcdb77c69ca7cd6141d92c122af";
+s0.isEncrypt = false;
+s0.key = "473d0c70ee0ef14ee3c96833da729e11968849714fdfe5a093cea06a4730b809e70a9539df29950c6649687853c6f95f172717f1e1162cf3f8b605a72b288f610015e48ffc49c659b128bfe612dda086d65894b8ef217f1626539e3c9eb40879c29b730d22bdcadb1b4f67996129275fa4c38c6336120510aea1ae1790819de86e0fa3e09eeabea1b068b3d9b9b6597acf0c219eb000a69c12ce9d568813365b3e099fcdb77c69ca7cd6141d92c122af";
+s0.m3u8HdUrl = null;
+s0.m3u8SdUrl = null;
+s0.m3u8ShdUrl = null;
+s0.mp4Caption = null;
+s0.mp4HdUrl = "http://v.stu.126.net/mooc-video/nos/mp4/2015/08/26/2030035_hd.mp4?ak=473d0c70ee0ef14ee3c96833da729e11968849714fdfe5a093cea06a4730b809e70a9539df29950c6649687853c6f95f172717f1e1162cf3f8b605a72b288f610015e48ffc49c659b128bfe612dda086d65894b8ef217f1626539e3c9eb40879c29b730d22bdcadb1b4f67996129275fa4c38c6336120510aea1ae1790819de86e0fa3e09eeabea1b068b3d9b9b6597acf0c219eb000a69c12ce9d568813365b3e099fcdb77c69ca7cd6141d92c122af";
+s0.mp4SdUrl = "http://v.stu.126.net/mooc-video/nos/mp4/2015/08/26/2030035_sd.mp4?ak=473d0c70ee0ef14ee3c96833da729e11968849714fdfe5a093cea06a4730b809e70a9539df29950c6649687853c6f95f172717f1e1162cf3f8b605a72b288f610015e48ffc49c659b128bfe612dda086d65894b8ef217f1626539e3c9eb40879c29b730d22bdcadb1b4f67996129275fa4c38c6336120510aea1ae1790819de86e0fa3e09eeabea1b068b3d9b9b6597acf0c219eb000a69c12ce9d568813365b3e099fcdb77c69ca7cd6141d92c122af";
+s0.mp4ShdUrl = "http://v.stu.126.net/mooc-video/nos/mp4/2015/08/26/2030035_shd.mp4?ak=473d0c70ee0ef14ee3c96833da729e11968849714fdfe5a093cea06a4730b809e70a9539df29950c6649687853c6f95f172717f1e1162cf3f8b605a72b288f610015e48ffc49c659b128bfe612dda086d65894b8ef217f1626539e3c9eb40879c29b730d22bdcadb1b4f67996129275fa4c38c6336120510aea1ae1790819de86e0fa3e09eeabea1b068b3d9b9b6597acf0c219eb000a69c12ce9d568813365b3e099fcdb77c69ca7cd6141d92c122af";
+s0.needKeyTimeValidate = false;
+s0.playerCollection = 3;
+s0.srtKeys = null;
+s0.start = 2;
+s0.videoDecryptData = null;
+s0.videoId = 2030035;
+s0.videoImgUrl = "http://nos.netease.com/mooc-video/nos/mp4/2015/08/26/2030035_big.jpg";
+s0.videoProtectedDataDto = null;
+dwr.engine._remoteHandleCallback('1529133420147', '0', {
+    contentId: null,
+    contentType: null,
+    duration: null,
+    hdMp4Url: null,
+    htmlContent: null,
+    id: null,
+    learnedPosition: 0,
+    origSrtUrl: null,
+    paper: null,
+    parsedSrtUrl: null,
+    post: null,
+    randomKey: null,
+    sdMp4Url: null,
+    shdMp4Url: null,
+    srtKeys: null,
+    textOrigUrl: "",
+    textPageWhRatio: null,
+    textPages: 0,
+    textUrl: "",
+    type: null,
+    unitId: null,
+    videoHDUrl: null,
+    videoId: null,
+    videoImgUrl: null,
+    videoLearnTime: 2,
+    videoSHDUrl: null,
+    videoUrl: null,
+    videoVo: s0
+});

@@ -1,0 +1,194 @@
+服务器响应返回的ASCII编码的页面，建议使用网页在线转码工具进行查看：http://tool.oschina.net/encode?type=3
+以下解析请在两个并排窗口中查看，并取消自动换行。
+
+----------------   解码并提取有效信息   ---------------
+s13.cid=1001690002;
+  
+s13.highlightContent="spContent=\"道法自然”——借鉴自然界信息处理机制设计智能计算新方法，是智能科学与技术研究的重要的研究哲学思想。本课程从自然界丰富多彩的“自然智能”到模拟自然的“{##机器##}智能”，从形式多样的“智能系统”到日新月异的“智能前沿”，展开一幅横跨生物、医学、遗传、社会与智能科技等学科之间知识关联图。";
+  
+  
+s13.highlightName="从自然世界到智能时代";
+  
+  
+  
+  
+s13.highlightTeacherNames="李智勇;";
+s13.highlightUniversity="湖南大学";
+s13.mocCourseCardDto=s72;
+
+  
+s72.applyConvertChannelStatus=0;
+s72.applyMoocStatus=0;
+s72.channel=1;
+s72.courseType=1;
+s72.currentTermChargeable=0;
+s72.currentTermId=1002756004;
+s72.firstPublishTime=0;
+  
+s72.fromCourseMode=-1;
+  
+  
+s72.gmtCreate=1469169465358;
+s72.id=1001690002;
+s72.imgUrl="https://edu-image.nosdn.127.net/01DED8168C47294F6D0842979D3937C7.jpg?imageView&thumbnail=426y240&quality=100";
+  
+  
+s72.learnerCount=22383;
+s72.mocTagDtos=s73;
+s72.mode=0;
+s72.name="从自然世界到智能时代";
+s72.ordinaryEditors=s74;
+s72.originalCourseChannel=0;
+s72.productType=1;
+s72.schoolImgUrl="http://edu-image.nosdn.127.net/42F69A0777BBE19939795AFA7FC39503.png?imageView&thumbnail=220y80&quality=100";
+s72.schoolPanel=s75;
+s72.shortName="0809HNU009";
+s72.spocToOocStatus=0;
+s72.status=2;
+s72.termPanel=s76;
+  
+s72.videoId=1004850048;
+s72.videoUrl="nos/p4/2016/08/24/1004850048_df53853dbd044e63ab194910caa88200_sd.mp4";
+s72.webVisible=1;
+s72.weight=0;
+
+s74[0]=s77;
+
+s77.member=s78;
+
+s78.accountType=0;
+s78.birthDay=1462764676869;
+s78.description="";
+s78.email="";
+s78.emailActive=3;
+s78.enable=true;
+s78.epayAccount="";
+  
+  
+  
+s78.gmtCreate=new Date(1462522799733);
+s78.gmtModified=new Date(1528956154497);
+s78.id=1016948259;
+s78.idNumber="";
+  
+  
+s78.lastLogonTime=new Date(1526539838498);
+s78.lastLongIP="";
+s78.loginId="";
+s78.loginType=11;
+s78.memberFrom=50;
+s78.moocLastLogonTime=1528956154497;
+s78.nickName="爱课程网任海燕";
+s78.personalUrlSuffix="mooc1462522799735";
+s78.phoneNumber="";
+  
+s78.realName="任海燕";
+s78.sex=0;
+  
+  
+  
+s78.studentNumber="";
+s78.userName="renhy@crct.edu.cn";
+
+s75.bgPhoto="http://img0.ph.126.net/cpI0vKxQqqA6SotheGUoEw==/2212393317046681968.jpg";
+s75.id=8006;
+s75.imgUrl="http://edu-image.nosdn.127.net/42F69A0777BBE19939795AFA7FC39503.png?imageView&thumbnail=220y80&quality=100";
+s75.name="湖南大学";
+s75.shortName="HNU";
+s75.smallLogo="http://edu-image.nosdn.127.net/C5622F836344D5BF605892E77B40A21A.png?imageView&thumbnail=150y150&quality=100";
+s75.supportCommonMooc=1;
+s75.supportMooc=1;
+s75.supportPostgradexam=0;
+s75.supportSpoc=1;
+
+s76.achievementStatus=0;
+  
+s76.applyMoocStatus=0;
+  
+  
+s76.bigPhotoUrl="https://edu-image.nosdn.127.net/01DED8168C47294F6D0842979D3937C7.jpg?imageView&thumbnail=426y240&quality=100";
+  
+  
+  
+s76.certStatus=10;
+s76.chargeCertStatus=10;
+  
+s76.closeVisableStatus=1;
+s76.copied=1;
+  
+  
+s76.courseId=1001690002;
+  
+s76.duration="";
+s76.endTime=1529508600000;
+s76.enrollCount=5041;
+s76.fromTermId=1002244005;
+s76.fromTermMode=0;
+s76.hasEnroll=true;
+s76.id=1002756004;
+s76.jsonContent="spContent=\"道法自然”——借鉴自然界信息处理机制设计智能计算新方法，是智能科学与技术研究的重要的研究哲学思想。本课程从自然界丰富多彩的“自然智能”到模拟自然的“机器智能”，从形式多样的“智能系统”到日新月异的“智能前沿”，展开一幅横跨生物、医学、遗传、社会与智能科技等学科之间知识关联图。";
+s76.lectorPanels=s79;
+s76.lessonsCount=38;
+s76.mode=0;
+  
+  
+  
+  
+s76.originalPrice=0.00;
+s76.price=0.00;
+s76.publishStatus=2;
+  
+  
+  
+s76.specialChargeableTerm=false;
+s76.spocToOocStatus=0;
+s76.startTime=1523844000000;
+  
+
+s79[0]=s80;
+
+  
+s80.lectorJob="博士生导师";
+s80.lectorTitle="教授 / 博士生导师";
+s80.lectorType=0;
+  
+s80.memberId=1018749198;
+s80.nickName="李智勇AT湖南大学";
+s80.photoUrl="http://nos.netease.com/edu-image/BAF42D56FFCAC9CB10F87B031D99EE05.jpg?imageView&thumbnail=180y180&quality=100";
+s80.realName="李智勇";
+  
+  
+s80.subfixUrl="mooc1469164742362";
+
+
+
+-------------------  结尾   --------------------- 
+s7.limit=20;
+s7.offset=0;
+s7.pageIndex=1;
+s7.pageSize=20;
+s7.sortCriterial=null;
+s7.totleCount=77;
+s7.totlePageCount=4;
+
+dwr.engine._remoteHandleCallback('1528898317310','0',{result:s5,categories:s6,pagination:s7,totalHit:77});
+
+
+
+-------------------------------  有效信息提取   ----------------------------------------
+cid                     课程编号           5
+jsonContent             课程介绍           129
+highlightName           课程名             9
+highlightTeacherNames   教师              14
+highlightUniversity     学校              15
+mocCourseCardDto        未知                  
+endTime                 结束时间          123     1529508600000   （Unix时间戳）2018-06-20 23:30:00
+enrollCount             已参加人数        124
+startTime               开课时间          145     1523844000000   （Unix时间戳）2018-04-16 10:00:00
+lectorTitle             职称              152
+# 时间可以用来计算课程状态
+
+pageIndex               第 x 页           168
+pageSize                每页 x 门课程      169  
+totleCount              总课程数           171
+totlePageCount          总页数             172

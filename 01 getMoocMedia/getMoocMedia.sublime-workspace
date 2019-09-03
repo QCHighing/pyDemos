@@ -1,0 +1,261 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ge",
+				"getC"
+			],
+			[
+				"wa",
+				"waitKey\tfunction"
+			],
+			[
+				"des",
+				"destroyAllWindows\tfunction"
+			],
+			[
+				"w",
+				"waitKey\tfunction"
+			],
+			[
+				"a",
+				"append\tfunction"
+			],
+			[
+				"Ga",
+				"GaussianBlur\tfunction"
+			],
+			[
+				"sca",
+				"scatter\tfunction"
+			],
+			[
+				"al",
+				"alpha"
+			],
+			[
+				"get",
+				"getDiagCycleMat\tfunction"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			]
+		]
+	},
+	"build_system": "Anaconda Python Builder",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: lis",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/F/GitHub/PythonDemo/getMoocMedia/download.py",
+		"/F/GitHub/PythonDemo/getMoocMedia/搜索页面.html",
+		"/D/Desktop/demo.py",
+		"/D/Desktop/MicroFluidic/bg.py",
+		"/D/Desktop/MicroFluidic/microfluidics.py",
+		"/F/PythonProjects/MyCV/Canny/myCanny.py",
+		"/F/PythonProjects/MyCV/Canny/dynamicThreshold.py",
+		"/C/Users/Administrator/Desktop/Snake Model/SnakeModel.sublime-project",
+		"/C/Users/Administrator/Desktop/Snake Model/mySnake.py",
+		"/C/Users/Administrator/Desktop/Snake Model/1.py",
+		"/C/Users/Administrator/Desktop/Snake Model/skimage-Snake.py",
+		"/C/Users/Administrator/Desktop/Snake Model/matlab.m",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/C/Users/Administrator/Desktop/Winterfell-master/app/login.py",
+		"/C/Users/Administrator/Desktop/Winterfell-master/app/models.py",
+		"/C/Users/Administrator/Desktop/Winterfell-master/app/__init__.py",
+		"/C/Users/Administrator/Desktop/11.md"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"pageIndex=(\\d+);.*totleCount=(\\d+);.*totlePageCount=(\\d+);",
+			"153",
+			"getDiagCycleMat",
+			"inv",
+			"intp",
+			"length",
+			"Win32",
+			"x86",
+			"app.run",
+			"md5"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"x64"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 145.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"replace":
+	{
+		"height": 77.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Administrator\\Desktop\\Winterfell-master\\Dict_Note_APP.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
